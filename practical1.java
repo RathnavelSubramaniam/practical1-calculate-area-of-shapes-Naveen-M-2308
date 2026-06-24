@@ -54,7 +54,7 @@ class Rectangle extends Quadrilateral{
         double width=Math.abs(point2.getY()-point3.getY());
         return length * width;
     }
-}
+}  
 
 class Square extends Rectangle{
     double sideLength;
