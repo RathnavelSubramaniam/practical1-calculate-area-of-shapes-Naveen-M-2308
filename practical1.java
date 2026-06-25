@@ -77,11 +77,10 @@ class practical1{
         Point p3=new Point(4,3);
         Point p4=new Point(0,3);
         Trapezoid trapezoid=new Trapezoid(p1,p2,p3,p4);
-        Rectangle rectangle=new Rectangle(p1,p2,p3,p4);
-        System.out.print();  
+        Rectangle rectangle=new Rectangle(p1,p2,p3,p4); 
         Square square=new Square(p1,3);
-        System.out.println("Area of Trapezoid "+trapezoid.calculateArea());
-        System.out.println("Area Of Rectangle "+rectangle.calculateArea());
-        System.out.println("Area Of Square "+square.calculateArea());
+        System.out.println("Area of Trapezoid="+trapezoid.calculateArea());
+        System.out.println("Area Of Rectangle="+rectangle.calculateArea());
+        System.out.println("Area Of Square="+square.calculateArea());
     }
 }
